@@ -17,8 +17,14 @@
             font-family: Roboto, Helevetica, Arial, Helvetica, sans-serif;
         }
 
+        section {
+            width: 100%;
+            min-height: 100vh;
+        }
+
+
         .background-radial-gradient {
-            background-color: hsl(218, 41%, 15%) ;
+            background-color: hsl(218, 41%, 15%);
             background-image: radial-gradient(650px circle at 0% 0%,
                     hs1(218, 41%, 35%)15%,
                     hsl(218, 41%, 30%) 35%,
@@ -31,7 +37,6 @@
                     hsl(218, 41%, 20%) 75%,
                     hsl(218, 41%, 19%) 80%,
                     transparent 100%);
-
         }
 
         #radius-shape-1 {
