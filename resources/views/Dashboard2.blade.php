@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GD5_X_11413</title>
+    <title>UGD5_B_11413</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -104,7 +104,7 @@
         </aside>
 
         <div class="content-wrapper">
-            @yield('content')
+            @yield('content2')
         </div>
 
         <footer class="main-footer">
@@ -114,7 +114,8 @@
 
             <strong>Copyright &copy; {{ date('Y') }} <a href="#">Gofit</a>. </strong> All rights reserved.
         </footer>
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+        <div class="modal fade mb-10" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-sm">
                 <div class="modal-content">
                     <div class="modal-header bg-primary">

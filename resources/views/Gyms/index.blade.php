@@ -18,7 +18,7 @@
         <h1>Gofit Analysis</h1>
         <div class="row align-items-center mt-3">
             <!-- Colom 1 -->
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-10">
                 <div class="card p-0 mx-3">
                     <div class="card-body">
                         <div class="d-flex justify-content-center">
@@ -138,7 +138,7 @@
             </tr>
             @empty
             <div class="alert alert-danger">
-                Data Kelas masi kosong
+                Data Kelas masih kosong
             </div>
             @endforelse
         </table>

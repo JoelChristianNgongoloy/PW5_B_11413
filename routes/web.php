@@ -21,6 +21,10 @@ Route::get('/dashboard', function () {
     return view('Dashboard');
 });
 
+Route::get('/login', function () {
+    return view('LOGIN');
+});
+
 Route::get('/gyms', function () {
     return view('Gyms/index', [
         'kelas' => [
@@ -56,6 +60,55 @@ Route::get('/gyms', function () {
                 'ruang' => 'Kelas D',
                 'rating' => '5',
             ]
+        ]
+    ]);
+});
+
+Route::get('/presensi', function () {
+    return view('Gyms/presensi', [
+        'daftar' => [
+            [
+                'nama' => "Deanny Febianti",
+                'email' => "deanny@gmail.com",
+                'notelp' => '0839485719352',
+                'kartu' => 'Gold',
+                'metode' => 'Deposit Kelas',
+            ],
+            [
+                'nama' => "Bernard Armandika",
+                'email' => "bernard@gmail.com",
+                'notelp' => '08338749347',
+                'kartu' => 'Silver',
+                'metode' => 'Deposit Uang',
+            ],
+            [
+                'nama' => "Bagus Pramono Aji",
+                'email' => "aji@gmail.com",
+                'notelp' => '083047234752',
+                'kartu' => 'Black',
+                'metode' => 'Deposit Kelas',
+            ],
+            [
+                'nama' => "Raihan Dwi Febrian",
+                'email' => "raihan@gmail.com",
+                'notelp' => '08845785023',
+                'kartu' => 'Black',
+                'metode' => 'Deposit Uang',
+            ],
+            [
+                'nama' => "Yessa Nugraheni",
+                'email' => "yessa@gmail.com",
+                'notelp' => '083948734384',
+                'kartu' => 'Gold',
+                'metode' => 'Deposit Kelas',
+            ],
+            [
+                'nama' => "Joelang Rifqi",
+                'email' => "joel@gmail.com",
+                'notelp' => '08393047347',
+                'kartu' => 'Silver',
+                'metode' => 'Deposit Uang',
+            ],
         ]
     ]);
 });
