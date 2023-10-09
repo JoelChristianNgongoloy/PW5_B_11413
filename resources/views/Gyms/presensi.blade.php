@@ -1,5 +1,5 @@
-@extends('dashboard2')
-@section('content2')
+@extends('dashboard')
+@section('content')
 
 <style>
     .gambarinstruktur {
